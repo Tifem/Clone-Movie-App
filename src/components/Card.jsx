@@ -29,7 +29,7 @@ const Card = ({ title, category }) => {
   return (
     <>
       <div className="cards-wrap py-20 flex px-10 flex-col bg-slate-50">
-        <h2 className="text-center text-3xl p-5 text-red-600">
+        <h2 className="text-center md:text-3xl p-5 text-red-600">
           Title: {title ? title : "Now Playing"}
         </h2>
         <div className="cards-grid sm:grid sm:grid-cols-2 space-y-3 sm:space-y-0  gap-6 lg:grid-cols-4">
