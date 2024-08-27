@@ -57,7 +57,7 @@ const Card = ({ title, category }) => {
                 </h2>
                 <div>
                   <p className="text-base font-bold mb-0 w-fit text-white bg-black px-3 rounded-2xl">
-                    {card.vote_average}
+                    {card.vote_average.toFixed(1)}
                   </p>
                 </div>
               </div>
