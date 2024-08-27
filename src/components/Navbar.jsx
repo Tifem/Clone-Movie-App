@@ -18,7 +18,7 @@ const Navbar = () => {
             <span className="bg-white rounded-full p-2 text-xl">
               <BiMoviePlay className="text-lg text-gray-800" />
             </span>
-            <h1 className="text-white font-bold text-2xl">Tife Movie-Box</h1>
+            <h1 className="text-white font-bold md:text-2xl">Tife Movie-Box</h1>
           </div>
 
           <button
